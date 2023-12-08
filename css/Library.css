@@ -1,0 +1,50 @@
+body{
+    color: aqua;
+    background-color: #333;
+}
+header{
+    background-color: rgb(16, 29, 29);
+}
+ul{
+    overflow: hidden;
+    padding: 10px 0px 10px 0px; 
+    }
+    
+    li{
+        list-style-type: none;
+        float: left;
+        border: 2px;
+        border-style: dotted;
+        border-color: rgb(0, 129, 6);
+        margin: 8px;
+    }
+    
+    li a{
+    color: aqua;
+    margin-right: 8px;
+    padding: 5px 5px 5px 5px;
+    }
+    li a:hover{
+        color: rgb(208, 255, 0);
+    }
+    li a:active{
+        color:bisque;
+    }
+h2{
+    color: rgb(0, 129, 6);
+}
+.CB{
+    color: red;
+}
+h1, h2{
+    text-decoration: underline;
+}
+.GPC{
+    font-size: larger;
+    color: rgb(0, 255, 34);
+    background-color: rgba(37, 35, 61, 0.514);
+    border: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+    width: fit-content;
+}

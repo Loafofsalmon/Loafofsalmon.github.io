@@ -1,0 +1,57 @@
+body{
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    & h2{
+        color: plum;
+        text-decoration: underline;
+        }
+    & h1{
+        text-decoration: underline;
+        }
+
+}
+header{
+    background-color: rgb(16, 29, 29);
+}
+ul{
+overflow: hidden;
+padding: 10px 0px 10px 0px; 
+}
+    li{
+        list-style-type: none;
+        float: left;
+        border: 2px;
+        border-style: dotted;
+        border-color: rgb(0, 129, 6);
+        margin: 8px;
+    }
+    li a{
+        color: aqua;
+        margin-right: 8px;
+        padding: 5px 5px 5px 5px;
+    }
+    li a:hover{
+        color: rgb(208, 255, 0);
+    }
+    li a:active{
+        color:bisque;
+    }
+p{
+    color: rgb(0, 156, 8);
+}
+.CB{
+    color: plum;
+}
+span{
+    color: rgb(255, 0, 200);
+    background-color: rgba(255, 0, 200, 0.116);
+}
+.GPC{
+    font-size: larger;
+    color: rgb(0, 255, 34);
+    background-color: rgba(37, 35, 61, 0.514);
+    border: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+    width: fit-content;
+}
